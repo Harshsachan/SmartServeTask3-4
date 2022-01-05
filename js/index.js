@@ -11,7 +11,7 @@ if (atposition<1 || dotposition<atposition+2 || dotposition+2>=x.length){
   }  
   var pass = document.getElementById("password").value;
   
-  if(pass!=="SmartServTest@12")
+  if(pass!=="SmartServTest@123")
   {
     invalidForm=true;
     alert("  Please enter a valid password");  
